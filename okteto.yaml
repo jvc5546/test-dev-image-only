@@ -1,0 +1,7 @@
+build:
+  some-random-service:
+    context: .
+    
+deploy:
+  commands:
+    - helm upgrade --install my-nginx-chart my-nginx-chart
